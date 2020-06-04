@@ -1,0 +1,22 @@
+﻿<Window x:Class="LicznikSlow.Wynik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LicznikSlow"
+        mc:Ignorable="d"
+        Title="Wynik" Height="220" Width="400" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="20,55,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="wzdania" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,20,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="wslowa" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="srednia" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,125,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="wznaki" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
+
+        <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="89" Margin="140,10,0,0" Source="saczysmarkOrder.png" x:Name="order"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Twoje opowiadanie jest tak małe," VerticalAlignment="Top" Margin="140,110,0,0" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi" x:Name="orderTekst" LineHeight="1" Width="300" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="jak Straszliwiec. I tak samo niebezpieczne! Otrzymujesz" VerticalAlignment="Top" Margin="140,125,0,0" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi" x:Name="orderTekst2" LineHeight="1" Width="300" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Order Straszliwca" VerticalAlignment="Top" Margin="140,150,0,0" FontFamily="/LicznikSlow;component/Fonts/#LittleBird" x:Name="orderSmoczka" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Kij wie co z niego wyrośnie" VerticalAlignment="Top" Margin="5,164,0,0" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi" x:Name="orderTekstDod" Width="388" TextAlignment="Left" FontSize="10"/>
+
+    </Grid>
+</Window>

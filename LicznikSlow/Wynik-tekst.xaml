@@ -1,0 +1,19 @@
+﻿<Window x:Class="LicznikSlow.Wynik_tekst"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LicznikSlow"
+        mc:Ignorable="d"
+        Title="Poprawiony tekst" Height="400" Width="700" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <RichTextBox HorizontalAlignment="Stretch" Height="Auto" Margin="10,10,10,10" VerticalAlignment="Stretch" Width="Auto" x:Name="zmienionyTekst">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

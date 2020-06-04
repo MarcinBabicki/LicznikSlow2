@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Wynik-tekst.xaml.cs">
+      <DependentUpon>Wynik-tekst.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Wynik.xaml.cs">
+      <DependentUpon>Wynik.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +73,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Wynik-tekst.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Wynik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -86,6 +100,15 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\calibri.ttf" />
+    <Resource Include="Fonts\calibrib.ttf" />
+    <Resource Include="Fonts\calibrii.ttf" />
+    <Resource Include="Fonts\calibril.ttf" />
+    <Resource Include="Fonts\calibrili.ttf" />
+    <Resource Include="Fonts\calibriz.ttf" />
+    <Resource Include="Fonts\LittleBird.ttf" />
+    <Resource Include="Fonts\ReemKufi-Regular.ttf" />
+    <None Include="Fonts\svgafix.fon" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +116,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="images\adam-mickiewicz-memy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\demonOrder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\megawonsz9Order.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\nightLightsOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\saczysmarkOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\serialOrder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\słuchawki order.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\smoczek.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\straszliwiecOrder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\SWP5P_dX_400x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\tirOrder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\zbojci1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
