@@ -12,7 +12,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="20,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="srednia" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
         <TextBlock HorizontalAlignment="Left" Margin="20,125,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" x:Name="wznaki" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi"/>
 
-        <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="89" Margin="140,10,0,0" Source="saczysmarkOrder.png" x:Name="order"/>
+        <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Top" Width="89" Margin="140,10,0,0" x:Name="order"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Twoje opowiadanie jest tak małe," VerticalAlignment="Top" Margin="140,110,0,0" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi" x:Name="orderTekst" LineHeight="1" Width="300" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="jak Straszliwiec. I tak samo niebezpieczne! Otrzymujesz" VerticalAlignment="Top" Margin="140,125,0,0" FontFamily="/LicznikSlow;component/Fonts/#Reem Kufi" x:Name="orderTekst2" LineHeight="1" Width="300" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Order Straszliwca" VerticalAlignment="Top" Margin="140,150,0,0" FontFamily="/LicznikSlow;component/Fonts/#LittleBird" x:Name="orderSmoczka" FontSize="16"/>

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LicznikSlow"
         mc:Ignorable="d"
-        Title="Licznik Słów" Height="450" Width="800">
+        Title="Licznik Słów" Height="450" Width="800"
+        Closing="Window_Closing">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -19,7 +20,7 @@
         </RichTextBox>
         <Button Content="OK" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Width="50" Click="Button_Click" Height="30" Background="DarkKhaki" BorderThickness="0" FontFamily="/LicznikSlow;component/Fonts/#LittleBird" FontSize="20"/>
         <TextBlock HorizontalAlignment="Right" Margin="0,0,15,10" TextWrapping="Wrap" Text="Made by Ania" FontFamily="/LicznikSlow;component/Fonts/#LittleBird" VerticalAlignment="Bottom"/>
-        <CheckBox Content="Zmieniać myślniki na te dłuższe?" HorizontalAlignment="Left" Margin="40,0,0,23" VerticalAlignment="Bottom" x:Name="zamiana_Copy" Checked="zamiana_Checked"/>
+        <CheckBox Content="Zmieniać myślniki na te dłuższe?" HorizontalAlignment="Left" Margin="40,0,0,23" VerticalAlignment="Bottom" x:Name="zamiana"/>
         <!--<TextBox HorizontalAlignment="Left" Height="152" Margin="83,40,0,0" TextWrapping="Wrap" 
                  Text="" VerticalAlignment="Top" Width="636" x:Name="pudelko"/>-->
     </Grid>

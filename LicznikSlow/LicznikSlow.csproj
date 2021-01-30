@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Klasy\CalyTekst.cs" />
+    <Compile Include="Klasy\KlasaBazowa.cs" />
+    <Compile Include="Klasy\Slowo.cs" />
+    <Compile Include="Klasy\Zdanie.cs" />
+    <Compile Include="Klasy\Znak.cs" />
+    <Compile Include="WebApiConn.cs" />
     <Compile Include="Wynik-tekst.xaml.cs">
       <DependentUpon>Wynik-tekst.xaml</DependentUpon>
     </Compile>
