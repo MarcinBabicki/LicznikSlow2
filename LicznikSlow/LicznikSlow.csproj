@@ -57,6 +57,12 @@
     </ApplicationDefinition>
     <Compile Include="Klasy\CalyTekst.cs" />
     <Compile Include="Klasy\KlasaBazowa.cs" />
+    <Compile Include="Klasy\KlasyOrdery\OrderSmoczka.cs" />
+    <Compile Include="Klasy\KlasyOrdery\OrderNightLights.cs" />
+    <Compile Include="Klasy\KlasyOrdery\OrderStraszliwca.cs" />
+    <Compile Include="Klasy\KlasyOrdery\OrderRyb.cs" />
+    <Compile Include="Klasy\KlasyOrdery\OrderBaza.cs" />
+    <Compile Include="Klasy\Ordery.cs" />
     <Compile Include="Klasy\Slowo.cs" />
     <Compile Include="Klasy\Zdanie.cs" />
     <Compile Include="Klasy\Znak.cs" />

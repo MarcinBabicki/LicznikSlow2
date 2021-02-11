@@ -9,6 +9,7 @@ namespace LicznikSlow.Klasy
     public class Slowo : KlasaBazowa
     {
         public override string Tekst1 { get => "Słowa: "; set => base.Tekst1 = value; }
+        public List<Znak> Znaki { get; set; }
 
     }
 }
